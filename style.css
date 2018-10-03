@@ -1,0 +1,102 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: small;
+    font-size: larger; /*This is a comment*/
+    background-image: url("city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: white
+}
+
+h1, h3 {    
+    font-family: 'Slabo 27px', serif;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #14003f;
+}
+#nav li {
+    float: left;
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+#nav li a:hover{
+    background-color: #070016;
+}
+#content {
+    border-width: 4px;
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0, 0.7);
+}
+table {
+    margin:auto;
+}
+#content ul, #content ol{
+    border: white 2px;
+    width: 15%;
+    margin: auto;
+}
+li a:hover {
+    text-shadow: 2px 2px 5px #bbb
+}
+#home {
+    text-align: center;
+    background-color: rgba(0,0,0, 0.7);
+    border-width: 4px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;   
+    width: 30%;
+    padding-bottom: 5px
+}    
+a {
+    color: #ffffff;
+}
+#contacts {
+    text-align: center;
+    background-color: rgba(0,0,0, 0.7);
+    border-width: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#bio {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#resume {
+    border-width: 4px;
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-left: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#resume ul {
+    border: white 2px;
+    text-align: left;
+}
+#resumetitle {
+    font-size: 70px;
+}
