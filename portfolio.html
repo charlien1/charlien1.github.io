@@ -12,7 +12,8 @@
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="resume.html">Resume</a></li>
         </ul>
-        <div id="portfolio"> 
+        <div id="portfolio">
+        <a href = "#pythonstoryheader" id="skiplink">Go to Python Story</a> 
         <h1 id="portfoliotitle">Doom Slayer</h1>
         <h2>Home-Screen</h2>
             <img src="doom.jpg" style="width:600px;height;500px;">
@@ -21,13 +22,12 @@
         <br>
             <a href="https://scratch.mit.edu/projects/258951374/#player">Game Link</a>
         <br>
-        <hr>
         <h3 id="portheaders">Description</h3>
             <p>Your character is the "Doom Slayer" and you must survive up to 3 rounds fighting off demons. 
             The scoring system works using a wave system, if the player is still alive after a certain amount of time then the wave number will go up.
             The use of randomness occurs in the demons' spawn times. The game gets more difficult by spawning demons from both sides and gets faster over time.
             The game ends when the demons reach the Doom Slayer and his health drops to 0, screen or if the player is able to survive all 3 waves.</p>
-        <hr>
+        <br>
         <h3 id="portheaders">Reflection</h3>
             <p>We chose to make this game because it was the first thing we can up with. 
             The inspiration of this game came from the original Doom game from 1993.
@@ -37,15 +37,33 @@
             Another are the shooting mechanics and how the sprites would animate when pressing the fire button. 
             If I had more time and resources I would have added a larger variety of enemies and possibly a boss level at the end. 
             I also would polish the shooting mechanics a bit.</p>
-        <hr>
+        <br>
         <h3 id="portheaders">Algorithm</h3>
             <img src="algorithm.png">
             <p>This was one of the algorithms used for the bullet that your character shoots in game. 
             It is an algorithm because it involves muliple steps and conditions that the sprite must follow. 
             When pressing "A" the variable will become -90 which makes the bullet travel left because its the direction your character is facing and does the opposite when you press "D".</p>
-        <hr>
+        <br>
         <h3>More Block</h3>
             <img src="block.png">
+        <hr>
+        <br>
+        <h1 id = "pythonstoryheader">Python Story: Phantom Blood</h1>
+        <p>19th-century England, a youth named Dio Brando is adopted by the wealthy George Joestar to repay Dio's father for seemingly saving his life. 
+        Jonathan Joestar, who aspires to become a gentleman, finds himself shunned by his family and friends as part of Dio's plot to take the Joestar fortune for himself.</p>
+        <a href="https://docs.google.com/drawings/d/16p-nL0K8wBMYrODRzTfcxYSrDruVyzcqFI2AsN9QJlY/edit?usp=sharing" target="_BLANK">
+        <img src = "flowchart.PNG" >
+        </a>
+        <h3>Process</h3>
+        <p>During the development for our python story we first borrowed the plot of one of our favorite shows, "Jojo's Bizarre Adventure" and put are own spin on the first season. 
+        We took apart the story and put the scenes into a flow chart while branching them out depending on the decisions made by the player and made different endings for each branch. 
+        After figuring out the story we made each scene into functions. The scene is defined as "line" in order to edit how fast or slow the text moves for each function. 
+        After the scene ends it moves on to another depending on the decisions made by the player. One difficulty we encountered early on was when we played the program, it didn't play the first scene. 
+        After looking at the example, I noticed that you had to run the function from the bottom line of the program. 
+        By abstracting our code into functions, we are organizing the code and can change the speed of how each individual function is read to the player on screen so that longer texts appear faster. 
+        I liked the story Three of Swords because of how drastic the endings can change from good to bad because of a single decision.</p>
+        <br>
+        <iframe height="400px" width="100%" src="https://repl.it/@CharlieNguyen/PointlessFirstExperiments-1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
         </div>
     </body>
 </html>
